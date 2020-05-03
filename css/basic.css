@@ -1,0 +1,25 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* fix img */
+.background-img-center {   
+    width: 500px;
+    height: 200px;
+    background: url('https://huichung.fgs.org.tw/wp-content/uploads/2018/05/%E6%98%A5%E5%A4%A9%E6%A1%8C%E5%B8%83.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+
+/* rwd img */
+.img-response {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
