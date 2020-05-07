@@ -23,3 +23,20 @@
     max-width: 100%;
     height: auto;
 }
+
+/* img effect */
+/* pre-setting */
+.img-frame {
+    overflow: hidden;
+}
+
+.background-img-fit-div {
+    width: 100%;
+    transition: transform 0.3s;
+    background-position: center center;
+    background-size: cover;
+}
+
+.background-img-fit-div:hover {
+    transform: scale(1.1);
+}
